@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+}
+
+#pizza {
+  font-size: 2rem;
+  height: 2rem;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.5rem 1rem;
+}
