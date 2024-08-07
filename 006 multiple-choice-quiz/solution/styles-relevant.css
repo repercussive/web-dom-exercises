@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+.quiz-question.state-unanswered .question-status {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.511);
+}
+
+.quiz-question.state-incorrect .question-status {
+  background-color: rgb(239, 197, 175);
+  color: rgb(93, 20, 4);
+}
+
+.quiz-question.state-correct .question-status {
+  background-color: rgb(191, 237, 188);
+  color: rgb(11, 66, 3);
+}
+
+.state-correct .selected-option::after {
+  border: solid 3px rgb(104, 197, 73);
+}
+
+.state-incorrect .selected-option::after {
+  border: solid 3px rgb(221, 131, 71);
+}

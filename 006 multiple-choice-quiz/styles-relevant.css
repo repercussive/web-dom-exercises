@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+/* 
+
+  The <article class="quiz-question"> elements should have the following classes applied:
+    • state-unanswered, if the question has not yet been answered.
+    • state-correct, if the question has been answered correctly.
+    • state-incorrect, if the question has been answered incorrectly.
+  ⚠️ Only one of the above classes should be applied at any given time.
+
+  The <button> elements should have the following class applied:
+    • selected-option, if the user has clicked that button as their answer.
+
+  If the above classes have been applied correctly, the styles below will automatically apply as needed.
+
+*/
+
+.quiz-question.state-unanswered .question-status {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.511);
+}
+
+.quiz-question.state-incorrect .question-status {
+  background-color: rgb(239, 197, 175);
+  color: rgb(93, 20, 4);
+}
+
+.quiz-question.state-correct .question-status {
+  background-color: rgb(191, 237, 188);
+  color: rgb(11, 66, 3);
+}
+
+.state-correct .selected-option::after {
+  border: solid 3px rgb(104, 197, 73);
+}
+
+.state-incorrect .selected-option::after {
+  border: solid 3px rgb(221, 131, 71);
+}

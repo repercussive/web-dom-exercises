@@ -1,0 +1,17 @@
+.low-interest {
+  background-color: rgb(245, 213, 213);
+  border: solid 2px rgb(222, 132, 132);
+  transition: background-color 150ms, border 150ms;
+}
+
+.medium-interest {
+  background-color: rgb(246, 239, 204);
+  border: solid 2px rgb(240, 210, 59);
+  transition: background-color 150ms, border 150ms;
+}
+
+.high-interest {
+  background-color: rgb(208, 240, 205);
+  border: solid 2px rgb(117, 198, 109);
+  transition: background-color 150ms, border 150ms;
+}
