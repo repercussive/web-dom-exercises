@@ -1,6 +1,6 @@
 # Wumble
 
-[Click here for a live demonstration of the solution.](https://web-dom-exercises.pages.dev/005%20friend-meetup-app/solution/) Try messing around with the values of the sliders. To see how the content and styling reacts.
+[Click here for a live demonstration of the solution.](https://web-dom-exercises.pages.dev/005%20friend-meetup-app/solution/) Try messing around with the values of the sliders to see how the content and styling reacts.
 
 ## Task
 
