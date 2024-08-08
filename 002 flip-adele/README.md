@@ -14,4 +14,4 @@ When the button is clicked a second time, the image should rotate by 180 degrees
 
 - You can rotate an element via CSS with `transform: rotate()`. [Click here for more information and examples.](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate)
 
-- To modify CSS from JavaScript, you can set the [style property](https://www.w3schools.com/jsref/prop_html_style.asp) of any DOM element.
+- To modify CSS from JavaScript, you can modify the [style property](https://www.w3schools.com/jsref/prop_html_style.asp) of any DOM element.
