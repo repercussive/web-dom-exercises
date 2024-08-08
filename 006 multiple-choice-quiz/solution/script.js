@@ -49,9 +49,9 @@ function markQuestionAsIncorrectlyAnswered(quizQuestionElement) {
 function highlightOptionButton(buttonToHighlight, quizQuestionElement) {
   // Remove highlight from all buttons
   for (const button of quizQuestionElement.querySelectorAll('button')) {
-    button.classList.remove('selected-option')
+    button.classList.remove('selected-answer')
   }
 
   // Highlight selected button
-  buttonToHighlight.classList.add('selected-option')
+  buttonToHighlight.classList.add('selected-answer')
 }

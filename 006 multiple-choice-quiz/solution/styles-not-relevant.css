@@ -65,7 +65,7 @@ p:last-of-type {
   pointer-events: none;
 }
 
-.selected-option::after {
+.selected-answer::after {
   position: absolute;
   content: '';
   inset: -2px;

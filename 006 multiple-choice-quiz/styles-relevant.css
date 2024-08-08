@@ -3,16 +3,7 @@
 
 /* 
 
-  The <article class="quiz-question"> elements should have the following classes applied:
-    • state-unanswered, if the question has not yet been answered.
-    • state-correct, if the question has been answered correctly.
-    • state-incorrect, if the question has been answered incorrectly.
-  ⚠️ Only one of the above classes should be applied at any given time.
-
-  The <button> elements should have the following class applied:
-    • selected-option, if the user has clicked that button as their answer.
-
-  If the above classes have been applied correctly, the styles below will automatically apply as needed.
+  ⚠️ Please view README.md to understand when and how to apply these styles.
 
 */
 
@@ -31,10 +22,10 @@
   color: rgb(11, 66, 3);
 }
 
-.state-correct .selected-option::after {
+.state-correct .selected-answer::after {
   border: solid 3px rgb(104, 197, 73);
 }
 
-.state-incorrect .selected-option::after {
+.state-incorrect .selected-answer::after {
   border: solid 3px rgb(221, 131, 71);
 }

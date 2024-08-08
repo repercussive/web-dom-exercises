@@ -16,10 +16,10 @@
   color: rgb(11, 66, 3);
 }
 
-.state-correct .selected-option::after {
+.state-correct .selected-answer::after {
   border: solid 3px rgb(104, 197, 73);
 }
 
-.state-incorrect .selected-option::after {
+.state-incorrect .selected-answer::after {
   border: solid 3px rgb(221, 131, 71);
 }
